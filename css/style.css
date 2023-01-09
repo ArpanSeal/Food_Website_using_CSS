@@ -19,6 +19,7 @@ html{
     align-items: center;
     position: sticky;
     top: 0px;
+    z-index: 1;
 }
 
 /* Navigation Bar Logo and Image */
@@ -89,7 +90,7 @@ html{
     width: 100%;
     top: 0px;
     left: 0px;
-    z-index: -2;
+    z-index: -1;
     opacity: 1;
 }
 
@@ -135,7 +136,6 @@ html{
 #client-section{
     position: relative;
     height: 300px;
-    z-index: -1;
 }
 
 #client-section::before{
@@ -187,7 +187,6 @@ html{
 
 #contact-box form{
     width: 40%;
-    z-index: -1;
 }
 
 #contact-box label{
